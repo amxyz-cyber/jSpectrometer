@@ -51,7 +51,7 @@ $ mvn clean package
 ```
 
 After a successful compilation the `.jar` file together with the 
-libraries will be placed in the subfolder called `**target**`.
+libraries will be placed in the subfolder called `target`.
 
 ## Installing jSpectrometer
 If you want to use the provided binaries, i.e. the release package
@@ -59,9 +59,13 @@ instead, then the installation process is simple:
 
 1. Unpack the archive where you would like to store the binaries, e.g.:
 * Unix-based operating systems (Linux, Solaris and Mac OS X)
-	tar zxvf jSpectrometer-x.y.z.tar.gz
+	```bash
+	$ tar zxvf jSpectrometer-x.y.z.tar.gz
+	```
 * Windows
+	```bash
 	unzip jSpectrometer-x.y.z.zip
+	```
 2. A directory called "jSpectrometer-3.x.y" will be created.
 
 ## Starting jSpectrometer
