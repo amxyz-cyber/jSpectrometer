@@ -26,15 +26,21 @@ compilers as well as JREs can be downloaded from [Bellsoft](https://bell-sw.com/
     
 **Memory**:
 * No minimum requirement.
+
 **Disk**:
 * Approximately 1.1 MiB is required for the jSpectrometer installation 
   itself. In addition to that, 2.8 MiB disk space will be used for 
   the jSpectrometer. 
+
 **Operating System**:
 * Windows:
       Windows 2000 or above.
 * Unix based systems (Linux, Solaris and Mac OS X) and others:
       No minimum requirement.
+      
+ **Gnuplot**:
+ * jSpectrometer uses [**gnuplot](http://www.gnuplot.info/) to plot the diagram. So you need
+ to install gnuplot first before using jSpectrometer.
  
 ## Compiling jSpectrometer
 If you decide to compile this project then you can do it with [maven](https://maven.apache.org/).
@@ -64,12 +70,12 @@ instead, then the installation process is simple:
 	$ java -jar jSpectrometer-x.y.z.jar
 	```
 * Windows
-	Right-click on `jSpectrometer-x.y.z.jar` > **Open**.
+	Right-click on `jSpectrometer-x.y.z.exe` > **Open**.
 
 ## Usage
 1. To create a diagram you'll need a **data file** with three columns in
 the following order:
-`**Wavelength**`, `**P_Solvent**`, `**P_Solution**` [see example file](https://github.com/amxyz-cyber/jSpectrometer/blob/master/spectrometer.dat)
+`Wavelength`, `P_Solvent`, `P_Solution` [see example file](https://github.com/amxyz-cyber/jSpectrometer/blob/master/spectrometer.dat)
 
 2. The jSpectrometer's jar file, the settings file 
 [jspectrometer.properties](https://github.com/amxyz-cyber/jSpectrometer/blob/master/jspectrometer.properties)
@@ -83,7 +89,7 @@ won't work.
 4. When starting the textGUI you can hit the `Test` button to check 
 whether the data file could be found and read in.
 
-5. Go to `**Chart**` > `**New**` and make the necessary settings to
+5. Go to **Chart** > **New** and make the necessary settings to
 create the diagram. 
 * Select the directory for the new diagram
 * Enter the file name of the diagram. Please note, the file name has to
@@ -95,4 +101,4 @@ end on `.eps`.
 
 7. Hitting the `Start Window` button will get you back to the main window.
 
-8. To quit **jSpectrometer** go to `**Help**` > `**Exit**`
+8. To quit **jSpectrometer** go to **Help** > **Exit**
