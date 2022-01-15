@@ -2,7 +2,7 @@
 
 ## What is it?
 [jSpectrometer](https://github.com/amxyz-cyber/jSpectrometer/tree/master/screenshots)
-can plot the data taken from a **diode array spectrophotometer**. To 
+plots the data taken from a **diode array spectrophotometer**. To 
 plot the data `jSpectrometer` needs the signal `P_Solution` obtained 
 with sample solution in the cell after subtraction of the dark signal. 
 Additionally, it requires the reference signal `P_Solvent` obtained with
