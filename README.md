@@ -10,7 +10,7 @@ only solvent in the cell after subtraction of the dark signal. After the
 data file has been read in it calculates the absorbance `A` and 
 transmittance `T` based on the data retrieved from the two signals and 
 the wavelength. The plot contains the spectra of the absorption and 
-transmittance stored in a single (`.eps`)[https://github.com/amxyz-cyber/jSpectrometer/blob/master/screenshots/spectrometer.eps] file.
+transmittance stored in a single [`.eps`](https://github.com/amxyz-cyber/jSpectrometer/blob/master/screenshots/spectrometer.png) file.
 
 **jSpectrometer** is a Java app which was compiled using a 64 bit Java
 compiler. Although it runs on the console it comes with a **textGUI**
@@ -22,7 +22,7 @@ on any Linux system, including Raspberry Pi and on Windows.
 **JDK**:
 * 9 or above. Both the Java compiler and Java runtime (JRE) need to 
 support 64-bit and contain the package **JavaFX**. Compatible Java
-compilers as well as JREs can be downloaded from (Bellsoft)[https://bell-sw.com/pages/downloads/].
+compilers as well as JREs can be downloaded from [Bellsoft](https://bell-sw.com/pages/downloads/).
     
 **Memory**:
 * No minimum requirement.
@@ -37,7 +37,7 @@ compilers as well as JREs can be downloaded from (Bellsoft)[https://bell-sw.com/
       No minimum requirement.
  
 ## Compiling jSpectrometer
-If you decide to compile this project then you can do it with (maven)[https://maven.apache.org/].
+If you decide to compile this project then you can do it with [maven](https://maven.apache.org/).
 Under Linux open a terminal and go to the directory of this project. 
 Then run the following command which will compile the source files:
 ```bash
@@ -69,10 +69,10 @@ instead, then the installation process is simple:
 ## Usage
 1. To create a diagram you'll need a **data file** with three columns in
 the following order:
-`**Wavelength**`, `**P_Solvent**`, `**P_Solution**` (see example file)[https://github.com/amxyz-cyber/jSpectrometer/blob/master/spectrometer.dat]
+`**Wavelength**`, `**P_Solvent**`, `**P_Solution**` [see example file](https://github.com/amxyz-cyber/jSpectrometer/blob/master/spectrometer.dat)
 
 2. The jSpectrometer's jar file, the settings file 
-(jspectrometer.properties)[https://github.com/amxyz-cyber/jSpectrometer/blob/master/jspectrometer.properties] 
+[jspectrometer.properties](https://github.com/amxyz-cyber/jSpectrometer/blob/master/jspectrometer.properties)
 as well as the library folder `libs` need to share the same directory.
 
 3. Additionally, you'll need to edit the settings file 
