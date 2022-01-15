@@ -82,8 +82,8 @@ the following order:
 `Wavelength`, `P_Solvent`, `P_Solution` [see example file](https://github.com/amxyz-cyber/jSpectrometer/blob/master/spectrometer.dat)
 
 2. The jSpectrometer's jar file, the settings file 
-[jspectrometer.properties](https://github.com/amxyz-cyber/jSpectrometer/blob/master/jspectrometer.properties)
-as well as the library folder `libs` need to share the same directory.
+[jspectrometer.properties](https://github.com/amxyz-cyber/jSpectrometer/blob/master/jspectrometer.properties), 
+the Windows .exe file as well as the library folder `libs` need to share the same directory.
 
 3. Additionally, you'll need to edit the settings file 
 `jspectrometer.properties`. Especially, the path to the data file has
