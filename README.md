@@ -39,7 +39,7 @@ compilers as well as JREs can be downloaded from [Bellsoft](https://bell-sw.com/
       No minimum requirement.
       
  **Gnuplot**:
- * jSpectrometer uses [**gnuplot](http://www.gnuplot.info/) to plot the diagram. So you need
+ * jSpectrometer uses [**gnuplot**](http://www.gnuplot.info/) to plot the diagram. So you need
  to install gnuplot first before using jSpectrometer.
  
 ## Compiling jSpectrometer
