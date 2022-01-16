@@ -74,7 +74,7 @@ instead, then the installation process is simple:
 	$ java -jar jSpectrometer-x.y.z.jar
 	```
 * Windows
-	Right-click on `jSpectrometer-x.y.z.exe` > **Open**.
+> Right-click on `jSpectrometer-x.y.z.exe` > **Open**.
 
 ## Usage
 1. To create a diagram you'll need a **data file** with three columns in
