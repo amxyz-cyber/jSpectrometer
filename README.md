@@ -1,4 +1,4 @@
-# jSpectrometer - It visiualizes the data of your spectrometer!
+# jSpectrometer - It visualizes the data of your spectrometer!
 
 ## What is it?
 [jSpectrometer](https://github.com/amxyz-cyber/jSpectrometer/tree/master/screenshots)
